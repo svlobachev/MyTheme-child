@@ -28,7 +28,26 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<!-- ******************* The Navbar Area ******************* -->
 	<div id="wrapper-navbar">
 
-	<div class="top-header-holder"></div>
+
+        
+	<div class="top-header-holder">
+        <div class="logo-holder">
+            <div class="logo"></div>
+            <div class="logo-txt">Ремонт квартир
+                                  в Москве и МО</div>
+        </div>
+        <div class="portfolio_button"></div>
+        <div class="chats">
+            <div class="chats-txt">Пишите, мы сейчас онлайн</div>
+            <div class="chats-icons">
+                <i class="fa fa-whatsapp"></i>
+            </div>
+        </div>
+        <div class="contact-telephone">
+            <div class="telephone-txt">Мы сейчас работаем, звоните</div>
+            <div class="telephone-number">+7(499) 113-23-79</div>
+        </div>
+	</div>
 
 		<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
 
