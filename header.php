@@ -31,21 +31,35 @@ $container = get_theme_mod( 'understrap_container_type' );
 
         
 	<div class="top-header-holder">
-        <div class="logo-holder">
-            <div class="logo"></div>
-            <div class="logo-txt">Ремонт квартир
-                                  в Москве и МО</div>
-        </div>
-        <div class="portfolio_button"></div>
-        <div class="chats">
-            <div class="chats-txt">Пишите, мы сейчас онлайн</div>
-            <div class="chats-icons">
-                <i class="fa fa-whatsapp"></i>
+	    <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="logo-holder">
+                        <div class="logo"><p><img class="leftimg" src="<?php echo get_template_directory_uri().'-child';?>/img/Logo-min.png" alt="Логотип" >Ремонт квартир в Москве и МО</p>
+                            <div class="logo-txt">Ремонт квартир в Москве и МО</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="portfolio_button"></div>
+                </div>
+                <div class="col">
+                    <div class="chats">
+                        <div class="chats-txt">Пишите, мы сейчас онлайн</div>
+                        <div class="chats-icons">
+                            <i class="fa fa-whatsapp"></i>
+                            <i class="viber-ico"></i>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="contact-telephone">
+                        <div class="telephone-txt">Мы сейчас работаем, звоните</div>
+                        <div class="telephone-number">+7(499) 113-23-79</div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="contact-telephone">
-            <div class="telephone-txt">Мы сейчас работаем, звоните</div>
-            <div class="telephone-number">+7(499) 113-23-79</div>
         </div>
 	</div>
 
