@@ -6,21 +6,47 @@ body{
 }
 #wrapper-navbar {
   .top-header-holder {
-    height: 185px;
+    height: 85px;
     background: #ffffff;
+    padding: 10px 10px 10px 10px;
     .logo-holder{
       .logo{
-        .leftimg {
-          float:left; /* Выравнивание по левому краю */
-          margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+        padding-right: 10px;
         }
+      .td-border{
+        border-left: 1px solid #a8a8a8; /* Линия снизу */
+
+      }
+      .logo-txt {
+        padding-left: 10px;
+        font-size: 14px;
+        float:left; /* Выравнивание по левому краю */
         }
       }
+      .chats{
+        .chats-txt{
+          font-size: 14px;
+        }
+        .chats-icons{
+          padding-top: 10px;
+        }
+      }
+    .contact-telephone{
+      .telephone-txt{
+        font-size: 14px;
+        padding-bottom: 10px;
+      }
+      .telephone-number{
+        font-size: 24px;
+        font-weight:bold;
+      }
     }
-  .leftimg {
-    float:left; /* Выравнивание по левому краю */
-    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
-  }
+    .portfolio_button{
+      display: flex;
+      align-items: center;
+      justify-content: center
+    }
+    }
 
   #main-nav {
     ul{

@@ -35,21 +35,31 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="row">
                 <div class="col">
                     <div class="logo-holder">
-                        <div class="logo"><p><img class="leftimg" src="<?php echo get_template_directory_uri().'-child';?>/img/Logo-min.png" alt="Логотип" >Ремонт квартир в Москве и МО</p>
-                            <div class="logo-txt">Ремонт квартир в Москве и МО</div>
-                        </div>
+                        <table>
+                            <tr>
+                                <td><div class="logo"><img src="<?php echo get_template_directory_uri().'-child';?>/img/Logo-min.png" alt="Логотип" ></div>
+                                </td>
+                                <td class="td-border"><div class="logo-txt">Ремонт квартир в Москве и МО</div>
+                                </td >
+                            </tr>
+                        </table>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="portfolio_button"></div>
+                    <div class="portfolio_button"><p><img src="<?php echo get_template_directory_uri().'-child';?>/img/_28_1.svg" alt="Портфолио">Изучить портфолио</p>p></div>
                 </div>
                 <div class="col">
                     <div class="chats">
                         <div class="chats-txt">Пишите, мы сейчас онлайн</div>
                         <div class="chats-icons">
-                            <i class="fa fa-whatsapp"></i>
-                            <i class="viber-ico"></i>
-
+                            <table>
+                                <tr>
+                                    <td class="chats-txt"><img src="<?php echo get_template_directory_uri().'-child';?>/img/WA.svg" alt="WhatsApp" >WhatsApp
+                                    </td>
+                                    <td class="chats-txt"><img src="<?php echo get_template_directory_uri().'-child';?>/img/Group_19.svg" alt="Viber" >Viber
+                                    </td >
+                                </tr>
+                            </table>
                         </div>
                     </div>
                 </div>
